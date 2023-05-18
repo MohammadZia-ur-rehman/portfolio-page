@@ -1,3 +1,7 @@
+/*
+Start of the data for the Header section
+*/
+
 const profileName = "Muhammad Zia Ur Rehman";
 const profileRole = "Full-Stack Developer";
 
@@ -16,4 +20,19 @@ const socialAccounts = [
   },
 ];
 
-export { profileName, profileRole, socialAccounts };
+/*
+Start of the data for the Footer section
+*/
+const quotes = [
+  {
+    text: "Technology is best when it brings people together",
+    author: "Matt Mullenweg",
+    textSize: "text-sm",
+  },
+  {
+    text: "I believe that the only way to do great work is to love what you do and keep taking small steps towards your goal",
+    textSize: "text-sm",
+  },
+];
+
+export { profileName, profileRole, socialAccounts, quotes };
