@@ -26,8 +26,8 @@ export default function SocialItem({
         >
           <g fill="none">
             <path
-              fillRule="evenodd"
-              clipRule="evenodd"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
               d={data.svg}
               fill="currentColor"
             />

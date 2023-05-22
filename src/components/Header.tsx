@@ -1,5 +1,5 @@
 import SocialSection from "./social/SocialSection";
-import PersonalDetails from "./personal/PersonalDetails";
+import PersonalDetails from "./details/PersonalDetails";
 
 export default function Header() {
   return (

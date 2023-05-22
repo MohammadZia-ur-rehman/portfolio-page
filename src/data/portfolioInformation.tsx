@@ -21,6 +21,143 @@ const socialAccounts = [
 ];
 
 /*
+Start of the data for the Main section
+*/
+
+const contactDetails = [
+  {
+    type: "phone",
+    title: "Phone Number",
+    description: "+923345523657",
+  },
+  {
+    type: "email",
+    title: "E-mail Address",
+    description: "mohammadzia199424@gmail.com",
+  },
+  {
+    type: "address",
+    title: "Location",
+    description: "Rawalpindi, Pakistan",
+  },
+];
+
+const githubStats = ["Laravel", "ReactJS", "NextJS"];
+
+const skills = {
+  title: "Skills",
+  list: [
+    "JavaScript",
+    "TypeScript",
+    "Tailwind CSS",
+    "ReactJS",
+    "NextJS",
+    "PHP",
+    "CodeIgniter",
+    "Laravel",
+  ],
+};
+
+const furtherEducation = {
+  title: "Further Education",
+  list: ["Laracasts", "CodeCamp", "PIAIC"],
+};
+
+const currentlyLearning = {
+  title: "Currently Learning",
+  list: ["Tailwind", "WebGL", "NextJS"],
+};
+
+const InterestAndHobbies = {
+  title: "Interests & Hobbies",
+  list: [
+    "Sustainability",
+    "New Technologies",
+    "Cryptography",
+    "Investment",
+    "Travel",
+  ],
+};
+
+const about = {
+  title: "About",
+  description: [
+    "As a Technical Lead with over 6 years of experience in Web Development, I have a proven track record of leading and managing teams of developers to deliver high-quality software products and services. My expertise in Laravel, CodeIgniter, PHP, Bootstrap, and Jquery allows me to provide technical guidance and mentorship to my team members to help them develop their skills and advance their careers.",
+    "While I am well-versed in traditional full-stack development, I am also continuously learning and expanding my skills in emerging technologies, such as the NextJS framework and Web 3.0. I have a particular interest in blockchain and smart contracts, and I am excited to leverage these technologies to help build innovative solutions that transform industries.",
+    "As a Visiting Lecturer at a prestigious university, I have the opportunity to share my expertise and mentor the next generation of developers. I am passionate about teaching and love to inspire others to learn, grow, and push boundaries.",
+    "In my current role as Technical Lead, I am dedicated to fostering an environment that encourages innovation and creativity. I keep up-to-date with the latest technologies and industry trends to ensure that my team is using the most effective and efficient approaches.",
+    "Overall, I am a dedicated and experienced Technical Lead who is passionate about developing high-quality software products and services.",
+  ],
+};
+
+const projects = [
+  {
+    name: "Clynxx",
+    skills: ["PHP", "CodeIgniter", "DocuSign"],
+    live: "https://clynxx.uk",
+    code: "https://github.com",
+    description: [
+      "The website project is a user-friendly online platform that connects doctors and patients, enabling seamless communication and healthcare services. Patients can easily register, schedule appointments, and receive personalized treatment from qualified doctors. The platform includes features such as secure user accounts, appointment booking, and electronic prescription management. Through video calls or chat, patients can consult with doctors remotely, ensuring convenient access to healthcare. The website streamlines the prescription process, allowing doctors to generate electronic prescriptions, which patients can securely access and fulfill at pharmacies. Overall, the project aims to improve the doctor-patient experience, enhance healthcare accessibility, and optimize the delivery of medical services.",
+    ],
+  },
+];
+
+const experiences = [
+  {
+    name: "TechInsects",
+    title: "Senior Software Developer",
+    duration: "Feb 2019 - Till Now",
+    location: "Islamabad, Pakistan",
+    description: [
+      "Creating time frames and work schedules to meet deadlines.",
+      "Debugging websites and ensuring software documentation is updated.",
+      "Communicating effectively with clients and development teams.",
+      "Establishing strong professional relationships with clients and other professionals.",
+      "Supervising junior web developers, analyzing areas of weakness, and scheduling training sessions accordingly.",
+    ],
+  },
+  {
+    name: "Mishkat Welfare Trust",
+    title: "Software Developer",
+    duration: "Feb 2017 - Jan 2019",
+    location: "Rawalpindi, Pakistan",
+    description: [
+      "Hands-on experience of PHP Frameworks specially Code Igniter and Laravel.",
+      "Designed, developed and implemented multiple web applications",
+      "Conversion of mock-ups into HTML, CSS, JavaScript and JSON",
+      "Developed different business models for E-Commerce web applications.",
+    ],
+  },
+];
+
+const education = [
+  {
+    degree: "MS Information Security",
+    institute: "NATIONAL UNIVERSITY OF SCIENCE & TECHNOLOGY",
+    duration: "2022",
+    score: "3.43 CGPA",
+  },
+  {
+    degree: "BS Information Technology",
+    institute: "UNIVERSITY OF ENGINEERING & TECHNOLOGY, TAXILA",
+    duration: "2017",
+    score: "3.65 CGPA",
+  },
+  {
+    degree: "FSC (PRE-ENGINEERING)",
+    institute: "RAWAL COLLEGE OF COMMERCE",
+    duration: "2012",
+    score: "775/1100",
+  },
+  {
+    degree: "MATRIC (BIOLOGY)",
+    institute: "SHINNING STAR SCHOOL SYSTEM",
+    duration: "2010",
+    score: "745/1050",
+  },
+];
+
+/*
 Start of the data for the Footer section
 */
 const quotes = [
@@ -35,4 +172,19 @@ const quotes = [
   },
 ];
 
-export { profileName, profileRole, socialAccounts, quotes };
+export {
+  profileName,
+  profileRole,
+  socialAccounts,
+  contactDetails,
+  githubStats,
+  skills,
+  furtherEducation,
+  currentlyLearning,
+  InterestAndHobbies,
+  about,
+  projects,
+  experiences,
+  education,
+  quotes,
+};
