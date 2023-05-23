@@ -1,4 +1,5 @@
 interface Contact {
+  type: string;
   title: string;
   description: string;
 }
